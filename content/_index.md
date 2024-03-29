@@ -62,27 +62,23 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Engineer
+          company: DeepMind
+          company_url: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://deepmind.google/&ved=2ahUKEwimxKnXk5mFAxVRFhAIHX_oALsQFnoECAcQAQ&usg=AOvVaw0aRX2m20zAM4OLPWzUz-oH'
+          location: Uk
+          date_start: '2020-01-01'
+          date_end: '2021-03-11'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Engineer
+        - title: Github project moderator
+          company: Mistral.ai
+          company_url: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mistral.ai/&ved=2ahUKEwijzN3FlJmFAxXtGhAIHWTPCu0QFnoECBMQAQ&usg=AOvVaw3wITlO0t8NOKmzyhJHFCBG'
+          location: French
+          date_start: '2021-04-03'
+          date_end: ''
+          description: Github moderator. Code review. PR.
     design:
       columns: '2'
   - block: accomplishments
@@ -98,33 +94,21 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.nvidia.com/en-us/training/online/&ved=2ahUKEwjjram_lZmFAxWUPrkGHXFuAsIQFnoECBMQAQ&usg=AOvVaw2l86ZkvDSnoXlchyr4zzIn
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2019-01-25'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: nvidia
+          organization_url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.nvidia.com/ru-ru/&ved=2ahUKEwi7jLzVlZmFAxUrFBAIHe_gCK8QFnoECAcQAQ&usg=AOvVaw3nXov4-FTrbA74F8lvtHlP
+          title: Neural Networks Courses
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://yandex.ru/yaintern/&ved=2ahUKEwipq_qklpmFAxV9KBAIHZKhAdMQFnoECAYQAQ&usg=AOvVaw1XCWsp9KcUBEZq8P9SaD1T
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          date_start: '2019-02-01'
+          organization: yandex
+          organization_url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ya.ru/&ved=2ahUKEwjB9vWslpmFAxXiPhAIHRWWCFgQFnoECAYQAQ&usg=AOvVaw1gAEJFOLA02X4naLK30vy5
+          title: Data science yandex internship
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
     design:
       columns: '2'
   - block: collection
